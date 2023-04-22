@@ -7,18 +7,20 @@ import { Banner } from "../banners/Banner";
 
 export const Header = () => {
   return (
-    <header>
+    <header className="sticky top-0 w-full backdrop-blur-md z-50 ">
       <Banner />
       <nav>
         <Flex
           minWidth="max-content"
           alignItems="center"
           gap="4"
-          className="w-full xl:px-28 sm:px-12 xs:px-2 border-b border-b-slate-800"
+          className="w-full xl:px-28 sm:px-12 xs:px-2 border-b border-b-purple-800"
         >
           <Flex alignItems={"center"} cursor={"pointer"} mr="auto" gap={2}>
             <Logo />
-            <Text variant="">SAAS Template</Text>
+            <Text fontSize="2xl" as="b" className="text-purple-900">
+              SAAS Template
+            </Text>
           </Flex>
           <Flex
             alignItems={"center"}

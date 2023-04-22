@@ -10,13 +10,13 @@ export function Navigation() {
       w="100%"
       direction={{ base: "column", md: "row" }}
     >
-      <Link href="/about" className="block lg:inline-block lg:mt-0 ">
+      <Link href="/about" className="text-purple-500 hover:text-purple-900">
         About Us
       </Link>
-      <Link href="/documents" className="block lg:inline-block lg:mt-0 ">
+      <Link href="/documents" className="text-purple-500 hover:text-purple-900">
         Documentations
       </Link>
-      <Link href="/pricing" className="block lg:inline-block lg:mt-0 ">
+      <Link href="/pricing" className="text-purple-500 hover:text-purple-900">
         Pricing
       </Link>
     </Flex>

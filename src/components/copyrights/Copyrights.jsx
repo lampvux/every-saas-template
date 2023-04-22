@@ -1,6 +1,6 @@
 import { Flex, Text } from "@chakra-ui/react";
 
-export const Banner = () => {
+export const Copyrights = () => {
   return (
     <Flex
       alignItems="center"
@@ -11,10 +11,7 @@ export const Banner = () => {
       className="bg-purple-600 w-full text-purple-100"
     >
       <Text>✨ </Text>
-      <Text>
-        {" "}
-        We announcing new feature which you cant believe on your own eye @@{" "}
-      </Text>
+      <Text> Copy right {new Date().getFullYear()} LamVu </Text>
       <Text>✨ </Text>
     </Flex>
   );
