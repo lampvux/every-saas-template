@@ -29,9 +29,9 @@ export const Footer = () => {
           <Socials />
         </Flex>
         <Resources />
-        <Flex flexDirection="column" alignItems="flex-start" gap="6">
-          <Contact />
+        <Flex flexDirection="column" alignItems="flex-start" gap="5">
           <Newsletter />
+          <Contact />
         </Flex>
       </Flex>
       <Copyrights />

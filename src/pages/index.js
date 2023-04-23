@@ -6,6 +6,7 @@ import { Showcases } from "@/components/showcases/Showcases";
 import { Stats } from "@/components/stats/Stats";
 import { Reviews } from "@/components/reviews/Reviews";
 import { Faqs } from "@/components/faqs/Faqs";
+import { Communities } from "@/components/communities/Communities";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Showcases />
       <Faqs />
       <Reviews />
+      <Communities />
     </Flex>
   );
 }

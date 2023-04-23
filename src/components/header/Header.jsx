@@ -4,6 +4,7 @@ import { Logo } from "../logo/Logo";
 import { Navigation } from "../navigation/Navigation";
 import { Auth } from "../auth/Auth";
 import { Banner } from "../banners/Banner";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -17,10 +18,14 @@ export const Header = () => {
           className="w-full xl:px-28 sm:px-12 xs:px-2 border-b border-b-purple-800"
         >
           <Flex alignItems={"center"} cursor={"pointer"} mr="auto" gap={2}>
-            <Logo />
-            <Text fontSize="2xl" as="b" className="text-purple-900">
-              SAAS Template
-            </Text>
+            <Link href="/">
+              <Flex alignItems={"center"} cursor={"pointer"} mr="auto" gap={2}>
+                <Logo />
+                <Text fontSize="2xl" as="b" className="text-purple-900">
+                  SAAS Template
+                </Text>
+              </Flex>
+            </Link>
           </Flex>
           <Flex
             alignItems={"center"}
